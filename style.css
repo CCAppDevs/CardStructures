@@ -1,0 +1,27 @@
+.deck {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid green;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .btn {
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.card p {
+    padding: 15px;
+}
