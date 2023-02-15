@@ -1,12 +1,15 @@
 .deck {
     display: flex;
     justify-content: space-evenly;
-    gap: 5%;
+    gap: 2em;
     width: 80%;
     margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
+    width: 200px;
     border: 1px solid green;
     border-radius: 25px;
     overflow: hidden;
@@ -22,6 +25,7 @@
     border: 1px solid black;
 }
 
-.card p {
-    padding: 15px;
+.card .card-body {
+    margin: 25px;
+    text-align: center;
 }
